@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.header{
+  
+  border-radius: 20px;
+  margin-top: 30px;
+  display:flex;
+  color: rgb(175, 211, 116);
+  align-items:center;
+  padding: 20px;
+  background-color: rgb(176, 75, 75);
+  
+}
+.header h1{
+  padding-right: 30px;
+  align-items: left;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.header nav{
+  align-items:left;
+  padding:20px;
+  display: flex;
+  gap:20px;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  flex: 1;
+  transition: background-color 0.3s ease;
+  display: column;              /* enable flexbox inside each half */
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 20px;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* proper shadow */
+}
+
+.left {
+  padding: 20px;
+  background-color: rgb(213, 139, 139);
+}
+
+.right {
+  background-color: aliceblue;
+}
+
+
+
+
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.student-form label {
+  font-weight: bold;
+}
+
+.student-form input,
+.student-form select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  
+}
+
+.student-form button {
+  padding: 10px;
+  background-color: rgb(213, 139, 139);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: rgb(176, 75, 75);
+}
